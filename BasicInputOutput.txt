@@ -1,0 +1,47 @@
+using System;
+namespace ConsoleApp
+{
+class GreetingProgram
+{
+static void Main (string[] args)
+{
+Console.Write("Name: "); 
+string name = Console.ReadLine(); 
+Console.Write("Present Address: ");
+string presentaddress = Console.ReadLine();
+Console.Write("Permanent Address: ");
+string permanentaddress = Console.ReadLine();
+Console.Write("Date of Birth: ");
+string birthdate = Console.ReadLine();
+Console.Write("Civil Status: ");
+string status = Console.ReadLine();
+Console.Write("Citizenship: ");
+string citizenship = Console.ReadLine();
+Console.Write("Place of Birth: ");
+string birthplace = Console.ReadLine();
+Console.Write("Name of Father: ");
+string father = Console.ReadLine();
+Console.Write("Name of Mother: ");
+string mother = Console.ReadLine();
+Console.Write("Parents Address: ");
+string address = Console.ReadLine();
+Console.Write("Dialect: ");
+string dialect = Console.ReadLine();
+Console.Write("Person to notify incase of emergency: ");
+string emergency = Console.ReadLine();
+Console.Write("Religion: ");
+string religion = Console.ReadLine();
+Console.Write("Age: ");
+string age = Console.ReadLine();
+Console.Write("Weight: ");
+string weight = Console.ReadLine();
+Console.Write("Height: ");
+string height = Console.ReadLine();
+Console.ReadKey();
+Console.Write("\n                BIODATA              \n");
+Console.Write("Name: " +name+"\nPresentAddress: "+presentaddress+"\nPermanent Address: "+permanentaddress+"\nDate of Birth: "+birthdate+"\nCivil Status: " +status+"\nCitizenship: " +citizenship+"\nPlace of Birth: " +birthplace+"\nName of Father: "+father+"\nName of Mother: "+mother+"\nParents Address: "+address+"\nDialect: "+dialect+"\nPerson to notify incase of emergency: "+emergency+"\nReligion: "+religion+"\nAge: "+age+"\nWeight: "+weight+"\nHeight: "+height);
+Console.Write("\nPress any key to exit...");
+Console.ReadKey();
+}
+}
+}
